@@ -153,22 +153,26 @@ print("Só no GitHub:", only_gh)
 ## Consequências
 
 ### Benefícios
-	•	Automatização da análise de cobertura e divergência entre planejamento (SharePoint) e execução (GitHub).
-	•	Base para ações como: criar plano para novas pastas, encerrar plano de itens obsoletos, etc.
-	•	Código reutilizável e modular.
+
+- Automatização da análise de cobertura e divergência entre planejamento (SharePoint) e execução (GitHub).
+- Base para ações como: criar plano para novas pastas, encerrar plano de itens obsoletos, etc.
+- Código reutilizável e modular.
 
 ### Riscos ou Limitações
-	•	Requer exportação manual (ou integração) do SharePoint para CSV.
-	•	Dependência de token GitHub com escopo correto.
+
+- Requer exportação manual (ou integração) do SharePoint para CSV.
+- Dependência de token GitHub com escopo correto.
 
 ## Próximos Passos
-	•	Automatizar leitura do SharePoint via API ou PowerAutomate.
-	•	Criar alertas em pipeline para detectar novas pastas não planejadas.
-	•	Versionar os planos de ação no próprio repositório como YAML/CSV (governança de engenharia).
+
+- Automatizar leitura do SharePoint via API ou PowerAutomate.
+- Criar alertas em pipeline para detectar novas pastas não planejadas.
+- Versionar os planos de ação no próprio repositório como YAML/CSV (governança de engenharia).
 
 ## Decisores
-	•	Arquitetura & Engenharia de Dados
-	•	Times de Modernização
+
+- Arquitetura & Engenharia de Dados
+- Times de Modernização
 
 ## Data
 
